@@ -137,20 +137,23 @@ would have the greatest impact.
 
 ---
 
-## Project Structure
-apple-retail-analysis/
+## 📁 Project Structure
+
+```
+Apple-retail-sales-analysis/
 │
-├── datasets/
+├── 📂 datasets/
 │   ├── sales.csv
 │   ├── products.csv
 │   ├── stores.csv
 │   ├── category.csv
 │   └── warranty.csv
 │
-├── queries/
+├── 📂 queries/
 │   └── apple_analysis.sql
 │
-└── README.md
+└── 📄 README.md
+```
 
 ---
 
