@@ -165,7 +165,7 @@ Run queries from queries/apple_analysis.sql
 
 ---
 
-📊 Skills Demonstrated
+## Skills Demonstrated
 - Complex SQL joins across 5 relational tables
 - CTEs (Common Table Expressions) for readable, layered queries
 - Window Functions (LAG, LEAD, RANK, ROW_NUMBER) for time-series and ranking analysis
@@ -176,13 +176,7 @@ Run queries from queries/apple_analysis.sql
 
 ---
 
-## Author
-Udit Narayan
-LinkedIn: https://www.linkedin.com/in/udit-narayan-7902aa293/
-GitHub: https://github.com/udit-narayaan
-
 ## 👤 Author
-
 **Udit Narayan** 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/udit-narayan-7902aa293/)
