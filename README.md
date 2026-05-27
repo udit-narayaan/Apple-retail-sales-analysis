@@ -23,6 +23,11 @@ Total Revenue Analysed: $992,751,214
 
 ---
 
+# Database Schema## Entity Relationship Diagram
+The following ER diagram represents the relational structure of the Apple retail sales database used in this project.
+
+![ER Diagram](screenshots/er_diagram.png)
+
 ## Tools Used
 - **PostgreSQL** — primary database
 - **SQL** — Joins, CTEs, Subqueries, Window Functions, 
