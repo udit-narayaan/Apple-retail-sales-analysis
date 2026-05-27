@@ -23,15 +23,6 @@ Total Revenue Analysed: $992,751,214
 
 ---
 
-## Database Schema
-### Entity Relationship Diagram
-
-The following ER diagram represents the relational structure of the Apple retail sales database used in this project.
-
-![ER Diagram](screenshots/er_diagram.PNG)
-
----
-
 ## Business Questions Answered
 ### Sales Performance
 - Which stores generate the highest and lowest revenue globally?
