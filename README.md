@@ -32,11 +32,11 @@ Total Revenue Analysed: $992,751,214
 
 ## Business Questions Answered
 ### Sales Performance
-Which stores generate the highest and lowest revenue globally?
-What are the top products by total units sold and revenue?
-How does sales performance vary year-over-year across countries?
-Which product categories contribute most to overall revenue?
-Which country markets are most and least valuable?
+- Which stores generate the highest and lowest revenue globally?
+- What are the top products by total units sold and revenue?
+- How does sales performance vary year-over-year across countries?
+- Which product categories contribute most to overall revenue?
+- Which country markets are most and least valuable?
 
 ### Time-Series Analysis
 How do monthly and yearly sales trends look over a 5-year period?
