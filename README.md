@@ -39,16 +39,16 @@ Total Revenue Analysed: $992,751,214
 - Which country markets are most and least valuable?
 
 ### Time-Series Analysis
-How do monthly and yearly sales trends look over a 5-year period?
-Which stores show consistent growth vs decline over time?
-What year-over-year growth patterns exist across regions?
-How did the 2022 revenue spike compare to surrounding years?
+- How do monthly and yearly sales trends look over a 5-year period?
+- Which stores show consistent growth vs decline over time?
+- What year-over-year growth patterns exist across regions?
+- How did the 2022 revenue spike compare to surrounding years?
 
 ### Warranty & Product Reliability
-Which products have the highest warranty claim rates?
-What is the average time between purchase and warranty claim?
-How do warranty-to-sales ratios vary across product categories?
-What proportion of claims result in free replacement vs paid repair vs void?
+- Which products have the highest warranty claim rates?
+- What is the average time between purchase and warranty claim?
+- How do warranty-to-sales ratios vary across product categories?
+- What proportion of claims result in free replacement vs paid repair vs void?
 
 ---
 
