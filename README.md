@@ -158,30 +158,11 @@ Apple-retail-sales-analysis/
 ---
 
 ## How to Run
-Clone this repository
-Set up PostgreSQL locally or use any SQL client (pgAdmin, DBeaver)
-Create a new database and import all 5 CSV files as tables
-Run queries from queries/apple_analysis.sql
+1, Clone this repository
+2, Set up PostgreSQL locally or use any SQL client (pgAdmin, DBeaver)
+3, Create a new database and import all 5 CSV files as tables
+4, Run queries from queries/apple_analysis.sql
 
-## 🚀 How to Run
-
-1. Clone this repository
-```bash
-   git clone https://github.com/udit-narayaan/Apple-retail-sales-analysis.git
-```
-
-2. Set up PostgreSQL locally or use any SQL client (pgAdmin / DBeaver)
-
-3. Create a new database and import all 5 CSV files as tables
-```sql
-   CREATE TABLE sales (...);
-   CREATE TABLE products (...);
-   CREATE TABLE stores (...);
-   CREATE TABLE category (...);
-   CREATE TABLE warranty (...);
-```
-
-4. Run queries from `queries/apple_analysis.sql`
 ---
 
 ## Skills Demonstrated
