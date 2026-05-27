@@ -180,3 +180,10 @@ Run queries from queries/apple_analysis.sql
 Udit Narayan
 LinkedIn: https://www.linkedin.com/in/udit-narayan-7902aa293/
 GitHub: https://github.com/udit-narayaan
+
+## 👤 Author
+
+**Udit Narayan** 
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/udit-narayan-7902aa293/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](https://github.com/udit-narayaan)
