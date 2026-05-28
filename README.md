@@ -17,9 +17,15 @@ Total Revenue Analysed: $992,751,214
 |---|---|---|
 | `sales` | Transaction-level sales records | 1,040,191 |
 | `products` | 64 Apple products with pricing & launch dates | 64 |
-| `stores` | 73 Apple retail stores across 25+ countries | 73 |
+| `stores` | 73 Apple retail stores across 35 countries | 73 |
 | `category` | 10 product categories (Laptop, Audio, Tablet etc.) | 10 |
 | `warranty` | 30,836 warranty claims with repair status | 30,836 |
+
+---
+
+## Tools Used
+- PostgreSQL — primary database
+- SQL — Joins, CTEs, Subqueries, Window Functions, LAG/LEAD, RANK, Date Functions, Time-Series Analysis
 
 ---
 
@@ -47,14 +53,6 @@ Total Revenue Analysed: $992,751,214
 
 ## Key Insights
 ### Sales Performance
-
-**Questions Asked:**
-- Which stores generate the highest and lowest revenue globally?
-- What are the top products by total revenue?
-- Which product categories contribute most to overall revenue?
-- Which country markets are most and least valuable?
-
-**What the Data Revealed:**
 > Smartphones and Laptops alone drive 74.6% of all revenue ($434M and $306M 
 respectively), with the top 3 categories including Tablets ($102M) accounting 
 for 85% of $992M+ total revenue. The bottom 5 categories combined contribute 
@@ -80,12 +78,6 @@ points to a significant regional strategy problem worth investigating.
 ---
 
 ### Time-Series Analysis
-**Questions Asked:**
-- How did revenue trend year-over-year from 2019 to 2024?
-- Which years saw the sharpest growth and decline?
-- What does the revenue trajectory tell us about Apple's retail cycle?
-
-**What the Data Revealed:**
 > Revenue grew strongly from $139M in 2019 to $296M in 2022 — a 112% increase 
 over three years. The growth wasn't linear: 2020 saw a 45.5% jump, 2021 dipped 
 slightly by 12%, then 2022 surged 66% to its peak. This pattern likely reflects 
@@ -102,12 +94,6 @@ the centrepiece of their next planning cycle.
 ---
 
 ### Warranty & Product Reliability
-**Questions Asked:**
-- Which product categories have the highest warranty claim rates?
-- What proportion of claims result in free replacement vs paid repair vs void?
-- How long after purchase are customers filing warranty claims?
-
-**What the Data Revealed:**
 > Subscription Services carry a 9.35% warranty claim rate — the highest of any 
 category — despite contributing just 0.2% of total revenue. This is nearly 3x 
 higher than Smartphones (3.46%) and 18x higher than Desktops (0.51%). A product 
@@ -130,42 +116,63 @@ would have the greatest impact.
 
 ---
 
-## 📁 Project Structure
-
-```
+## Project Structure
+```text id="m8ajp0"
 Apple-retail-sales-analysis/
 │
 ├── 📂 datasets/
-│   ├── sales.csv
-│   ├── products.csv
-│   ├── stores.csv
-│   ├── category.csv
-│   └── warranty.csv
+│   ├── sales.csv              # Sales transaction data
+│   ├── products.csv           # Product details & pricing
+│   ├── stores.csv             # Store and country information
+│   ├── category.csv           # Product category mapping
+│   └── warranty.csv           # Warranty claim records
 │
-├── 📂 queries/
-│   └── apple_analysis.sql
+├── 📂 sql_queries/
+│   ├── schema.sql                     # Database schema creation
+│   ├── exploratory_analysis.sql       # Basic exploratory SQL queries
+│   ├── business_problems.sql          # Business-focused SQL analysis
+│   ├── revenue_analysis.sql           # Revenue & sales analysis
+│   ├── warranty_analysis.sql          # Warranty claim analysis
+│   ├── time_series_analysis.sql       # YoY & trend analysis
+│   └── advanced_analysis.sql          # Advanced SQL problems & KPIs
 │
-└── 📄 README.md
+├── 📂 screenshots/
+│   ├── er_diagram.png
+│   ├── country_sales.png
+│   ├── revenue_analysis.png
+│   ├── top_products.png
+│   ├── warranty_claims.png
+│   └── yoy_growth.png
+│
+└── README.md
 ```
 
 ---
 
-## How to Run
-1. Clone this repository
-2. Set up PostgreSQL locally or use any SQL client (pgAdmin, DBeaver)
-3. Create a new database and import all 5 CSV files as tables
-4. Run queries from queries/apple_analysis.sql
+## How to Run the Project
+1. Clone the Repository
+```bash
+git clone https://github.com/udit-narayaan/Apple-retail-sales-analysis.git
+```
+2. Set up PostgreSQL locally or use any SQL client (pgAdmin / DBeaver)
+3. Create a new database and run schema.sql first to set up all tables
+```sql
+\i sql_queries/revenue_analysis.sql
+```
+4. Import all 5 CSV files from the datasets/ folder into their respective tables
+5. Run any analysis file from sql_queries/ depending on what you want to explore
 
 ---
 
 ## Skills Demonstrated
-- Complex SQL joins across 5 relational tables
+- Complex joins across 5 relational tables
 - CTEs (Common Table Expressions) for readable, layered queries
-- Window Functions (LAG, LEAD, RANK, ROW_NUMBER) for time-series and ranking analysis
+- Window Functions — LAG, LEAD, RANK, ROW_NUMBER
 - Subqueries for filtered aggregations
-- Year-over-year growth calculations
+- Year-over-year growth calculations using date functions
 - Warranty-to-sales ratio analysis
-- Revenue contribution and segmentation analysis
+- Revenue contribution and category segmentation
+- Time-series analysis across a 5-year period
 
 ---
 
